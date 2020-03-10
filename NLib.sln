@@ -45,6 +45,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N08 - Tests", "N08 - Tests"
 		N08 - Tests\todo.txt = N08 - Tests\todo.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportViewerWpf", "N08 - Tests\ReportViewerWpf\ReportViewerWpf.csproj", "{DC85207D-BCA8-4463-A06F-7B07E501490E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{196F5E1C-1B45-4BB9-A067-BB3CE5DE5442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196F5E1C-1B45-4BB9-A067-BB3CE5DE5442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196F5E1C-1B45-4BB9-A067-BB3CE5DE5442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC85207D-BCA8-4463-A06F-7B07E501490E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC85207D-BCA8-4463-A06F-7B07E501490E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC85207D-BCA8-4463-A06F-7B07E501490E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC85207D-BCA8-4463-A06F-7B07E501490E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{A0630EF8-879A-4BFD-B806-27BB68406AD7} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
 		{44AC2742-A8EE-4F1D-B161-3F6A40BF3BA4} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
 		{196F5E1C-1B45-4BB9-A067-BB3CE5DE5442} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
+		{DC85207D-BCA8-4463-A06F-7B07E501490E} = {AC28F241-A260-435C-8C13-1220A6B7BCF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC669445-5F8A-4980-84AC-BB2F615252D0}
