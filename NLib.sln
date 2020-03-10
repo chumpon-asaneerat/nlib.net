@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N04 - Core Libraries", "N04 - Core Libraries", "{63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLib", "N04 - Core Libraries\NLib\NLib.csproj", "{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N02 - Extra Controls", "N02 - Extra Controls", "{70B0A56E-7EC8-4B2B-8629-8081E3F9D667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N01 - Tools and Utilities", "N01 - Tools and Utilities", "{AA336011-5DB0-438E-841D-04C86BFC58CA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC669445-5F8A-4980-84AC-BB2F615252D0}
