@@ -4,12 +4,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N04 - Core Libraries", "N04 - Core Libraries", "{63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}"
+	ProjectSection(SolutionItems) = preProject
+		N04 - Core Libraries\todo.txt = N04 - Core Libraries\todo.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLib", "N04 - Core Libraries\NLib\NLib.csproj", "{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N02 - Extra Controls", "N02 - Extra Controls", "{70B0A56E-7EC8-4B2B-8629-8081E3F9D667}"
+	ProjectSection(SolutionItems) = preProject
+		N02 - Extra Controls\todo.txt = N02 - Extra Controls\todo.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N01 - Tools and Utilities", "N01 - Tools and Utilities", "{AA336011-5DB0-438E-841D-04C86BFC58CA}"
+	ProjectSection(SolutionItems) = preProject
+		N01 - Tools and Utilities\todo.txt = N01 - Tools and Utilities\todo.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPM", "N01 - Tools and Utilities\CPM\CPM.csproj", "{9DB9E7C4-FA01-4C52-8559-EEE0E7A1ED48}"
 EndProject
@@ -20,6 +29,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLib.Data.ODP", "N04 - Core Libraries\NLib.Data.ODP\NLib.Data.ODP.csproj", "{44AC2742-A8EE-4F1D-B161-3F6A40BF3BA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLib.FTDI", "N04 - Core Libraries\NLib.FTDI\NLib.FTDI.csproj", "{196F5E1C-1B45-4BB9-A067-BB3CE5DE5442}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N03 - Third Parties", "N03 - Third Parties", "{5FC8924A-FCDF-4157-8989-C4759029E111}"
+	ProjectSection(SolutionItems) = preProject
+		N03 - Third Parties\todo.txt = N03 - Third Parties\todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N09 - Developer Tools", "N09 - Developer Tools", "{BE8A48D3-517A-4011-A573-3DD9DE8A7EAE}"
+	ProjectSection(SolutionItems) = preProject
+		N09 - Developer Tools\todo.txt = N09 - Developer Tools\todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N08 - Tests", "N08 - Tests", "{AC28F241-A260-435C-8C13-1220A6B7BCF6}"
+	ProjectSection(SolutionItems) = preProject
+		N08 - Tests\todo.txt = N08 - Tests\todo.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
