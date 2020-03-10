@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPM", "N01 - Tools and Util
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionCleanUp", "N01 - Tools and Utilities\SolutionCleanUp\SolutionCleanUp.csproj", "{B7AABF08-8CE9-4A44-AD3E-6A9A9C1AE48A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLib.Data.Firebird", "N04 - Core Libraries\NLib.Data.Firebird\NLib.Data.Firebird.csproj", "{A0630EF8-879A-4BFD-B806-27BB68406AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B7AABF08-8CE9-4A44-AD3E-6A9A9C1AE48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7AABF08-8CE9-4A44-AD3E-6A9A9C1AE48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7AABF08-8CE9-4A44-AD3E-6A9A9C1AE48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0630EF8-879A-4BFD-B806-27BB68406AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0630EF8-879A-4BFD-B806-27BB68406AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0630EF8-879A-4BFD-B806-27BB68406AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0630EF8-879A-4BFD-B806-27BB68406AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{A3B239C2-0281-4D4B-AEA1-20FC27F2BD85} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
 		{9DB9E7C4-FA01-4C52-8559-EEE0E7A1ED48} = {AA336011-5DB0-438E-841D-04C86BFC58CA}
 		{B7AABF08-8CE9-4A44-AD3E-6A9A9C1AE48A} = {AA336011-5DB0-438E-841D-04C86BFC58CA}
+		{A0630EF8-879A-4BFD-B806-27BB68406AD7} = {63CC0D6B-DC87-4A4D-9CBD-16707A93D0C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC669445-5F8A-4980-84AC-BB2F615252D0}
